@@ -1,0 +1,16 @@
+user:
+  name: maximum 50
+  email: maximum 225
+  validate_email_rex: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  password_min: minimum 6
+
+links:
+  rails_tutorial: "http://railstutorial.org"
+  michael: "https://www.railstutorial.org/"
+  news: "http://news.railstutorial.org/"
+  contact: "https://www.railstutorial.org/contact"
+  ruby_on_rails: "http://rubyonrails.org/"
+  guide: "http://screencasts.railstutorial.org"
+  book: "https://www.railstutorial.org/book"
+  help: "https://www.railstutorial.org/help"
+
