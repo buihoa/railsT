@@ -24,6 +24,12 @@ vi:
     sample_app: "app mẫu"
     contact_intro: "Vui lòng liên hệ với App mẫu "
     error_count: "Form bạn điền có lỗi: "
+    profile_updated: "Trang cá nhân được cập nhât!"   
+    welcome: "Chào mừng bạn tới Sample App" 
+    invalid_login: "Email hoặc password chưa đúng"
+    please_login: "Vui lòng đăng nhặp"
+    user_deleted: "Tài khoản đã bị xóa"
+    you_sure: "Bạn có chắc không?"
 
   titles:
     help: "Rails Tutorial mục trợ giúp"
