@@ -30,4 +30,21 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  sessions:
+    signup: "Sign Up"
+    login: "Log In"
+    logout: "Log Out"
+    login_status: "Logged in as %{username}."
+  
+  activerecord:
+    models:
+      user: "User"
+      attributes:
+        firstname: "First Name"
+        lastname: "Last Name"
+        password: "Password"
+        password_confirmation: "Confirm Password"
+
+  home: "Home"
+  about: "About"
+  help: "Help"
