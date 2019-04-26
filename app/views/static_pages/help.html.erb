@@ -1,11 +1,11 @@
 <% provide :title, t("help") %>
-<h1><%= t "help" %></h1>
+<h1><%= t("help") %></h1>
 <p>
-    <%= t (texts.help_open) %>
-    <%= link_to t (title.help), Settings.links.help %> 
-    <%= t (texts.help_close)  %>
-    <%= link_to t(texts.here), Settings.links.guide %>
+    <%= t("texts.help_open") %>
+    <%= link_to t("title.help"), Settings.links.help %> 
+    <%= t("texts.help_close")  %>
+    <%= link_to t("texts.here"), Settings.links.guide %>
     <%= t "dev" %>
     <%= link_to "Ruby on Rails", Settings.links.ruby_on_rails %>
-    <%= t (texts.sample)%>
+    <%= t("texts.sample")%>
 </p>

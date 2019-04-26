@@ -1,8 +1,8 @@
 user:
-  name: maximum 50
-  email: maximum 225
+  name: 50 
+  email: 225
   validate_email_rex: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
-  password_min: minimum 6
+  password_min: 6
 
 links:
   rails_tutorial: "http://railstutorial.org"

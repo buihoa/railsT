@@ -6,7 +6,9 @@ vi:
   contact: "Liên hệ"
   signup: "Đăng kí"
   login: "Đăng nhập"
-  
+  user: "Người dùng"
+  profile: "Trang Cá Nhân"
+  logout: "Đăng xuất"
 
   texts:
     is: "là"
@@ -20,7 +22,7 @@ vi:
     here: "tại đây"
     home_intro: "Đây là trang chủ của"
     sample_app: "app mẫu"
-    contact_info: "Vui lòng liên hệ với App mẫu "
+    contact_intro: "Vui lòng liên hệ với App mẫu "
     error_count: "Form bạn điền có lỗi: "
 
   titles:
