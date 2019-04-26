@@ -9,7 +9,10 @@ vi:
   user: "Người dùng"
   profile: "Trang Cá Nhân"
   logout: "Đăng xuất"
-
+  user_header: "Người dùng"
+  account: "Trang cá nhân"
+  settings: "Cài đặt"
+  
   texts:
     is: "là"
     and: "và" 
@@ -30,6 +33,7 @@ vi:
     please_login: "Vui lòng đăng nhặp"
     user_deleted: "Tài khoản đã bị xóa"
     you_sure: "Bạn có chắc không?"
+    change: "Thay đổi"
 
   titles:
     help: "Rails Tutorial mục trợ giúp"
@@ -37,5 +41,35 @@ vi:
 
   titleStatic: " | Hướng dẫn Ruby on Rails Ứng dụng mẫu"
 
-  signUpNow: "Đăng kí ngay!"
+  sign_up_now: "Đăng kí ngay!"
   
+  messages:
+    please_log_in: "Xin hãy đăng nhập."
+
+  micropost:
+    created: "Bài mới vừa được tạo"
+    deleted: "Bài viết đã được xóa."
+    delete: "Xóa bài viết"
+    post: "Đăng bài"
+
+  form:
+    name: "Tên của bạn"
+    password: "Mật khẩu"
+    password_confirmation: "Xác nhận mật khẩu"
+    remember_me: "Lưu tôi trên máy tính này"
+    log_in: "Đăng nhập"
+    new_user: "Người dùng mới?"
+    save_changes: "Lưu thay đổi"
+    edit_user: "Thay đổi thông tin cá nhân"
+    create_account: "Tạo tài khoản mới"
+
+  user:
+    delete: "Xóa người dùng"
+    all_users: "Tất cả người dùng"
+
+  error:
+    photo_size: "Hình ảnh quá kích thước quy định"
+
+  alert:
+    maximum_photo_file: "File không được quá 5MB. Xin vui lòng chọn file khác."
+    compose_new_post: "Viết post mới đê bạn..."
