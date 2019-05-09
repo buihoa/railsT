@@ -21,3 +21,5 @@ vi:
   intro_home_html: "Đây là trang chủ của 
   <a href=\"https://www.railstutorial.org/\">Ruby on Rails Tutorial</a>
   app mẫu."
+
+  titleStatic: "| Hướng dẫn Ruby on Rails Ứng dụng mẫu"
