@@ -20,6 +20,8 @@ vi:
     here: "tại đây"
     home_intro: "Đây là trang chủ của"
     sample_app: "app mẫu"
+    contact_info: "Vui lòng liên hệ với App mẫu "
+    error_count: "Form bạn điền có lỗi: "
 
   titles:
     help: "Rails Tutorial mục trợ giúp"
