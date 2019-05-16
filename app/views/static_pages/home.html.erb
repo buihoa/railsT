@@ -1,11 +1,13 @@
 <div class="center jumbotron">
-  <% provide(:title, t("home")) %>
+  <% provide :title, t("home") %>
 <h1><%= t "sampleApp" %></h1>
 <p>
-  <div><%= t "intro_home_html" %></div>
-
-  <%= link_to t("signUpNow") , signup_path, class: "btn btn-lg btn-primary" %>
+  <div><%= t ("texts.home_intro") %></div>
+  <%= link_to t("texts.sample_app"), Settings.links.ruby_on_rails %>
+  <div>
+  <%= link_to t("signUpNow"), signup_path, class: "btn btn-lg btn-primary" %>
+  </div>
 </div>
 <%= link_to image_tag("rails.png", alt: "Rails logo"),
-            "http://rubyonrails.org/" %>
+            Settings.links.ruby_on_rails %>
 </p>
