@@ -42,6 +42,7 @@ group :development, :test do
   # Call "byebug" anywhere in the code to stop execution
   # and get a debugger console
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
+  gem "pry"
 end
 
 group :development do
@@ -67,4 +68,6 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "bcrypt", "3.1.12"
 gem "bootstrap-sass", "3.3.7"
+gem "jquery-rails", "~> 4.3", ">= 4.3.3"
+gem "rails-ujs", "~> 0.1.0"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
