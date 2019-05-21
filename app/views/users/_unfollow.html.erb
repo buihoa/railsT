@@ -1,0 +1,5 @@
+<% provide :button_text, t "button.unfollow" %>
+<%= form_for(current_user.active_relationships.find_by(followed_id: @user.id),
+             html: { method: :delete }, remote: true) do |f| %>
+  <%= f.submit yield(:button_text), class: "btn" %>
+<% end %>

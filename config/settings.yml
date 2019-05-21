@@ -5,6 +5,7 @@ user:
   password: 6
   gravatar: 80
   gravatar_small: 50
+  avatar: 30
 
 links:
   rails_tutorial: "http://railstutorial.org"

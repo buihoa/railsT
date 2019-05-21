@@ -1,7 +1,7 @@
 class Micropost < ApplicationRecord
   belongs_to :user
-  scope :order_by_created, -> {order(created_at: :desc)}
-  scope :feed, -> (id) { where(user_id: id) }
+  scope :order_by_created, ->{order(created_at: :desc)}
+  scope :feed, ->(id){where(user_id: id)}
 
   mount_uploader :picture, PictureUploader
   validates :user_id, presence: true

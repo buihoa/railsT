@@ -12,7 +12,7 @@ class UsersController < ApplicationController
     @microposts = @user.microposts.paginate(page: params[:page], per_page: 10)
 
     return if @user.present?
-    flash[:danger] = t "texts.invalid_user"
+    flash[:danger] = t("texts.invalid_user")
     render :new
   end
 
@@ -25,7 +25,7 @@ class UsersController < ApplicationController
 
     if @user.save
       log_in @user
-      flash[:success] = t"texts.welcome"
+      flash[:success] = t "texts.welcome"
       redirect_to @user
     else
       render :new
@@ -39,7 +39,7 @@ class UsersController < ApplicationController
   def update
     @user = User.find_by(id: params[:id])
     if @user.update_attributes(user_params)
-      flash[:success] = t "texts.profile_updated"
+      flash[:success] = t("texts.profile_updated")
       redirect_to @user
     else
       render :edit
@@ -48,9 +48,13 @@ class UsersController < ApplicationController
 
   def destroy
     User.find_by(id: params[:id]).destroy
-    flash[:success] = t "texts.user_deleted"
+    flash[:success] = t("texts.user_deleted")
     redirect_to users_url
   end
+
+
+
+
 
   private
   def user_params
@@ -60,7 +64,7 @@ class UsersController < ApplicationController
 
   def logged_in_user
     return if logged_in?
-    store_location &&
+    store_location
     flash[:danger] = t("texts.please_login")
     redirect_to login_url
   end
