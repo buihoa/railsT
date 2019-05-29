@@ -8,9 +8,6 @@ gem "rails", "~> 5.2.3"
 # Use sqlite3 as the database for Active Record
 gem "sqlite3"
 # Use Puma as the app server
-gem "bootstrap-will_paginate", "1.0.0"
-gem "faker", "1.7.3"
-gem "will_paginate", "3.1.7"
 
 gem "puma", "~> 3.11"
 # Use SCSS for stylesheets
@@ -75,3 +72,13 @@ gem "bootstrap-sass", "3.3.7"
 gem "jquery-rails", "~> 4.3", ">= 4.3.3"
 gem "rails-ujs", "~> 0.1.0"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "bootstrap-will_paginate", "1.0.0"
+gem "carrierwave", "1.2.2"
+gem "faker", "1.7.3"
+gem "mini_magick", "4.7.0"
+gem "will_paginate", "3.1.7"
+group :production do
+  gem "fog", "1.42"
+  gem "pg", "0.20.0"
+end

@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
+
   attr_accessor :remember_token
   validates :name, presence: true, length: {maximum: Settings.user.name}
 
@@ -7,7 +9,8 @@ class User < ApplicationRecord
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
 
   has_secure_password
-  validates :password, presence: true, length: {minimum: Settings.user.password},
+  validates :password, presence: true,
+  length: {minimum: Settings.user.password},
   allow_nil: true
 
   def self.digest string
@@ -36,6 +39,10 @@ class User < ApplicationRecord
 
   def forget
     update_attribute(:remember_digest, nil)
+  end
+
+  def feed
+    Micropost.feed(id)
   end
 
   private

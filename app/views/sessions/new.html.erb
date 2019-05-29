@@ -1,5 +1,5 @@
 <% provide(:title, "Log In") %> 
-<h1> Log In </h1>
+<h1> <%= t "login" %> </h1>
 
 <div class="row">
     <div class="col-md-6 cl-md-offset-3">
@@ -8,16 +8,16 @@
             <%= f.label :email %>
             <%= f.email_field :email, class: "form-control" %>
 
-            <%= f.label :password %>
+            <%= f.label t "form.password" %>
             <%= f.password_field :password, class: "form-control" %>
 
-            <%= f.label :remember_me, class: "checkbox inline" do %>
+            <%= f.label t "form.remember_me", class: "checkbox inline" do %>
                 <%= f.check_box :remember_me %>
-                <span>Remember me on this computer</span>
+                <span><%= t "form.remember_me" %></span>
             <% end %>
-            <%= f.submit "Log in", class: "btn btn-primary" %>
+            <%= f.submit t("form.log_in") , class: "btn btn-primary" %>
             <% end %>
             
-            <p>New user? <%= link_to "Sign up now!", signup_path %></p>
+            <p> <%= t "form.new_user" %> <%= link_to t("sign_up_now"), signup_path %></p>
     </div>
 </div>

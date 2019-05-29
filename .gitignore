@@ -39,3 +39,6 @@ config/environments/*.local.yml
 /test/*
 
 .vscode/launch.json
+
+/public/uploads
+

@@ -4,6 +4,7 @@ user:
   validate_email_rex: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   password: 6
   gravatar: 80
+  gravatar_small: 50
 
 links:
   rails_tutorial: "http://railstutorial.org"
@@ -15,3 +16,7 @@ links:
   book: "https://www.railstutorial.org/book"
   help: "https://www.railstutorial.org/help"
 
+micropost:
+  content: 140
+  size: 50
+  photo_size: 5
