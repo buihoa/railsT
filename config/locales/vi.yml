@@ -38,6 +38,9 @@ vi:
   titles:
     help: "Rails Tutorial mục trợ giúp"
     news: "Tin Tức"
+    follow: "Đang theo dõi"
+    follower: "Theo dõi bơi"
+    view_my_profile: "Xem trang cá nhân"
 
   titleStatic: " | Hướng dẫn Ruby on Rails Ứng dụng mẫu"
 
@@ -51,6 +54,7 @@ vi:
     deleted: "Bài viết đã được xóa."
     delete: "Xóa bài viết"
     post: "Đăng bài"
+    name: "bài viết"
 
   form:
     name: "Tên của bạn"
@@ -73,3 +77,59 @@ vi:
   alert:
     maximum_photo_file: "File không được quá 5MB. Xin vui lòng chọn file khác."
     compose_new_post: "Viết post mới đê bạn..."
+    created_at: "Tạo vào lúc"
+    posted: "Đăng vào"
+    ago: "trước"
+
+  button:
+    follow: "Theo Dõi"
+    unfollow: "Bỏ Theo Dõi"
+
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: "một giờ"
+        other: "%{count} giờ"
+      about_x_months:
+        one: "một tháng"
+        other: "%{count} tháng"
+      about_x_years:
+        one: "một năm"
+        other: "%{count} năm"
+      almost_x_years:
+        one: "khoảng 1 năm"
+        other: "gần %{count} năm"
+      half_a_minute: "nửa phút"
+      less_than_x_minutes:
+        zero: "ít hơn 0 phút"
+        one: "ít hơn 1 phút"
+        other: "ít hơn %{count} phút"
+      less_than_x_seconds:
+        zero: "ít hơn 0 giây"
+        one: "ít hơn 1 giây"
+        other: "ít hơn %{count} giây"
+      over_x_years:
+        one: "hơn 1 năm"
+        other: "hơn %{count} năm"
+      x_days:
+        one: "1 ngày"
+        other: "%{count} ngày"
+      x_minutes:
+        one: "1 phút"
+        other: "%{count} phút"
+      x_months:
+        one: "1 tháng"
+        other: "%{count} tháng"
+      x_years:
+        one: "1 năm"
+        other: "%{count} năm"
+      x_seconds:
+        one: "1 giây"
+        other: "%{count} giây"
+    prompts:
+      second: "giây"
+      minute: "phút"
+      hour: "giờ"
+      day: "ngày"
+      month: "tháng"
+      year: "năm"

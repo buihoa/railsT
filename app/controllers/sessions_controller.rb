@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
     end
   end
 
-  def call_log_in    
+  def call_log_in
     log_in user
     params[:session][:remember_me] == "1" ? remember(user) : forget(user)
     redirect_back_or user
